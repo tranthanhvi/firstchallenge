@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+
+.availability {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.week {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.days {
+  display: flex;
+
+}
+
+.day {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.day.selected {
+  background-color: green;
+  color: white;
+}
+
+.day:disabled {
+  background-color: #fff;
+  cursor: not-allowed;
+}
+
